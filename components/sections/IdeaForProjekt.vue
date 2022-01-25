@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <div class="absolute top-0 -left-1/4 w-full -z-50">
+    <div class="absolute -top-5 -left-1/4 w-full -z-50">
       <img src="~/assets/images/contact_lines.svg" alt="" />
     </div>
   </section>
