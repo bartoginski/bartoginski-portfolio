@@ -21,7 +21,7 @@ export default {
   // https://github.com/vercel/vercel/issues/3499
   generate: {
     dir: 'public'
-  }
+  },
 
 
   // Global CSS: https://go.nuxtjs.dev/config-css
