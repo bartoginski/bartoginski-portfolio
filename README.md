@@ -1,5 +1,8 @@
 # bartoginski
 
+
+https://vercel.com/guides/deploying-nuxtjs-with-vercel
+
 ## Build Setup
 
 ```bash

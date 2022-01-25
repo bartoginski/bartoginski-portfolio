@@ -19,10 +19,6 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   // https://github.com/vercel/vercel/issues/3499
-  generate: {
-    dir: 'public'
-  },
-
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
