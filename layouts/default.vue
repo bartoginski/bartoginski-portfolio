@@ -1,13 +1,19 @@
 <template>
-    <div class="font-text text-white">
-        <TheHeader />
-        <Nuxt />
-        <TheFooter />
-    </div>
+  <div class="font-text text-white">
+    <TheHeader />
+    <Nuxt />
+    <TheFooter />
+  </div>
 </template>
+<script>
+import aosMixin from '~/mixins/aos'
+export default {
+  mixins: [aosMixin],
+}
+</script>
 
 <style>
 body {
-    @apply bg-dark-navy;
+  @apply bg-dark-navy;
 }
 </style>

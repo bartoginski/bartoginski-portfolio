@@ -2,7 +2,7 @@
   <div
     class="overflow-hidden max-h-screen h-screen relative flex items-center justify-center flex-col"
   >
-    <div class="blob">
+    <div class="blob" data-aos="zoom-in" data-aos-delay="900">
       <svg
         xmlns:xlink="http://www.w3.org/1999/xlink"
         version="1.1"
@@ -14,7 +14,10 @@
         />
       </svg>
     </div>
-    <div class="container flex justify-center items-center flex-col">
+    <div
+      class="container flex justify-center items-center flex-col"
+      data-aos="flip-up"
+    >
       <h1 class="text-white text-8xl font-title">
         Bartosz Ogiński <br />Frontend Developer
       </h1>
