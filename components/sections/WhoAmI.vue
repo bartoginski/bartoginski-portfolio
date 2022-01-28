@@ -18,7 +18,10 @@
           <a class="text-primary" href="https://www.softgorillas.com/"
             >SoftGorillas</a
           >
-          as frontend developer
+          as frontend developer.
+          <img 
+          class="absolute -bottom-8 right-2"
+          src="~/assets/images/dots.svg" alt="" />
         </template>
       </SectionText>
     </template>

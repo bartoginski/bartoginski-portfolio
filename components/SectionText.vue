@@ -3,7 +3,7 @@
     <SectionHeader>
       <slot name="title"></slot>
     </SectionHeader>
-    <p class="text-xl">
+    <p class="text-xl relative">
       <slot name="text"></slot>
     </p>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="relative">
     <LandingPage />
     <WhoAmI />
     <WhatCanI />
