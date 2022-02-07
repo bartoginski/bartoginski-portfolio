@@ -1,5 +1,5 @@
 <template>
-  <div class="font-text text-white">
+  <div class="font-text text-white overflow-hidden">
     <TheHeader />
     <Nuxt />
     <TheFooter />

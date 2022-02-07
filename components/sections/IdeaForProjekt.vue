@@ -1,7 +1,7 @@
 <template>
   <section class="container py-10 md:py-24 relative">
     <div class="flex flex-col justify-center items-center relative z-10">
-      <SectionHeader data-aos="fade-down"
+      <SectionHeader data-aos="fade-down" :lines="false"
         >Do you have an idea for a project?</SectionHeader
       >
       <p class="text-xl md:text-center" data-aos="fade-down">
