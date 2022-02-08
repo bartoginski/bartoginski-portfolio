@@ -5,45 +5,70 @@
     <NuxtLink to="/">
       <h2>LOGO</h2>
     </NuxtLink>
-    <svg
-      class="cursor-pointer"
-      width="70"
-      height="70"
-      viewBox="0 0 70 70"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+    <button @click="displayMenu = true">
+      <svg
+        class="cursor-pointer"
+        width="70"
+        height="70"
+        viewBox="0 0 70 70"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="0.5"
+          y="0.5"
+          width="69"
+          height="69"
+          rx="9.5"
+          stroke="#E8F1F5"
+        />
+        <rect
+          x="8.75"
+          y="17.5"
+          width="50.75"
+          height="7"
+          rx="3.5"
+          fill="#E8F1F5"
+        />
+        <rect
+          x="8.75"
+          y="31.5"
+          width="50.75"
+          height="7"
+          rx="3.5"
+          fill="#E8F1F5"
+        />
+        <rect
+          x="8.75"
+          y="45.5"
+          width="50.75"
+          height="7"
+          rx="3.5"
+          fill="#E8F1F5"
+        />
+      </svg>
+    </button>
+    <div
+      :class="
+        'absolute w-full top-0 h-screen bg-primary transition-all ' +
+        (displayMenu ? 'left-0' : 'left-full')
+      "
     >
-      <rect x="0.5" y="0.5" width="69" height="69" rx="9.5" stroke="#E8F1F5" />
-      <rect
-        x="8.75"
-        y="17.5"
-        width="50.75"
-        height="7"
-        rx="3.5"
-        fill="#E8F1F5"
-      />
-      <rect
-        x="8.75"
-        y="31.5"
-        width="50.75"
-        height="7"
-        rx="3.5"
-        fill="#E8F1F5"
-      />
-      <rect
-        x="8.75"
-        y="45.5"
-        width="50.75"
-        height="7"
-        rx="3.5"
-        fill="#E8F1F5"
-      />
-    </svg>
+      <div class="container  py-10">
+        <button @click="displayMenu = false">Close</button>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      displayMenu: false,
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>
