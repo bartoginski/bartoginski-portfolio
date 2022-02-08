@@ -1,53 +1,21 @@
 <template>
-  <div
-    class="fixed top-0 left-0 w-full flex items-center justify-between pt-8 px-5 z-50"
-  >
-    <NuxtLink to="/">
-      <h2>LOGO</h2>
-    </NuxtLink>
-    <button @click="displayMenu = true">
-      <svg
-        class="cursor-pointer"
-        width="70"
-        height="70"
-        viewBox="0 0 70 70"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect
-          x="0.5"
-          y="0.5"
-          width="69"
-          height="69"
-          rx="9.5"
-          stroke="#E8F1F5"
-        />
-        <rect
-          x="8.75"
-          y="17.5"
-          width="50.75"
-          height="7"
-          rx="3.5"
-          fill="#E8F1F5"
-        />
-        <rect
-          x="8.75"
-          y="31.5"
-          width="50.75"
-          height="7"
-          rx="3.5"
-          fill="#E8F1F5"
-        />
-        <rect
-          x="8.75"
-          y="45.5"
-          width="50.75"
-          height="7"
-          rx="3.5"
-          fill="#E8F1F5"
-        />
-      </svg>
-    </button>
+  <div class="fixed top-0 left-0 w-full z-50">
+    <header class="container flex items-center justify-between pt-8">
+      <NuxtLink to="/">
+        <h2>LOGO</h2>
+      </NuxtLink>
+      <button @click="displayMenu = true">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current text-white h-[50px] w-[50px]"
+        >
+          <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+        </svg>
+      </button>
+    </header>
     <div
       :class="
         'absolute w-full left-full top-0 h-screen bg-dark-navy transition-all duration-500 transform ' +
