@@ -3,10 +3,9 @@
     <span class="z-10 relative"><slot></slot></span>
     <div
       :class="
-        'rellax absolute -top-3 -left-8 h-5/6 w-24 z-0 ' +
+        'absolute -top-3 -left-8 h-5/6 w-24 z-0 ' +
         (lines ? 'lines--light' : '')
       "
-      data-rellax-speed="-1"
     ></div>
   </h2>
 </template>
