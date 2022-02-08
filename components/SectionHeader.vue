@@ -3,8 +3,10 @@
     <span class="z-10 relative"><slot></slot></span>
     <div
       :class="
-        'absolute -top-3 -left-8 h-5/6 w-24 z-0 ' + (lines ? 'lines--light' : '')
+        'rellax absolute -top-3 -left-8 h-5/6 w-24 z-0 ' +
+        (lines ? 'lines--light' : '')
       "
+      data-rellax-speed="-1"
     ></div>
   </h2>
 </template>
@@ -25,12 +27,11 @@ export default {
 </script>
 <style scoped lang="scss">
 .lines {
-  
   &--dark {
   }
 
   &--light {
-      opacity: 0.5;
+    opacity: 0.4;
     background: repeating-linear-gradient(
       -45deg,
       #4fbdba,

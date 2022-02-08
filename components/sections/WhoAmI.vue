@@ -1,5 +1,5 @@
 <template>
-  <SectionColumnsWrapper>
+  <SectionColumnsWrapper :is-reversed="true" >
     <template #left>
       <img src="~/assets/images/who_am_i.svg" alt="programmer" />
     </template>
@@ -20,7 +20,8 @@
           >
           as frontend developer.
           <img 
-          class="absolute -bottom-8 right-2"
+          class="rellax absolute -bottom-8 right-2"
+          data-rellax-speed="1"
           src="~/assets/images/dots.svg" alt="" />
         </template>
       </SectionText>

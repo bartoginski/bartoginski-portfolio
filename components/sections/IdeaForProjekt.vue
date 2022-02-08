@@ -19,8 +19,8 @@
       </div>
     </div>
 
-    <div class="absolute -top-5 -left-1/4 w-full -z-50 origin-bottom-right">
-      <img  src="~/assets/images/contact_lines.svg" alt="" />
+    <div class=" hidden sm:block -bottom-24 absolute -left-1/4 w-screen  -z-50 origin-bottom-right">
+      <img src="~/assets/images/contact_lines.svg" alt="" />
     </div>
   </section>
 </template>
