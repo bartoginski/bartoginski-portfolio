@@ -7,9 +7,8 @@
 </template>
 <script>
 import aosMixin from '~/mixins/aos'
-import rellaxMixin from '~/mixins/rellax'
 export default {
-  mixins: [aosMixin, rellaxMixin],
+  mixins: [aosMixin],
 }
 </script>
 
