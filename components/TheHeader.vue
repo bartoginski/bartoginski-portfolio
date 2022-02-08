@@ -50,8 +50,8 @@
     </button>
     <div
       :class="
-        'absolute w-full top-0 h-screen bg-primary transition-all ' +
-        (displayMenu ? 'left-0' : 'left-full')
+        'absolute w-full left-full top-0 h-screen bg-primary transition-all duration-500 transform ' +
+        (displayMenu ? '-translate-x-full' : 'translate-x-0')
       "
     >
       <div class="container  py-10">
