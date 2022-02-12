@@ -5,11 +5,13 @@
     <TheFooter />
   </div>
 </template>
-<script>
+<script lang="ts">
+import Vue from 'vue'
 import aosMixin from '~/mixins/aos'
-export default {
+
+export default Vue.extend({
   mixins: [aosMixin],
-}
+})
 </script>
 
 <style>

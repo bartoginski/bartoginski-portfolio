@@ -3,16 +3,21 @@
     data-aos="zoom-in"
     data-aos-delay="1300"
     data-aos-anchor-placement="center-bottom"
-    class="h-10 w-6 border-2 pt-1 pb-1 border-white relative rounded-2xl flex items-center justify-center"
+    class="h-10 w-6"
   >
-    <div
-      class="h-3 w-3 bg-white rounded-full animate-bounce duration-300"
-    ></div>
+    <svg
+      width="24"
+      height="24"
+      xmlns="http://www.w3.org/2000/svg"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      class="fill-current text-white animate-bounce"
+    >
+      <path
+        d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"
+      />
+    </svg>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
 
 <style lang="scss" scoped></style>

@@ -24,16 +24,11 @@
       </h1>
       <h2 class="font-text text-2xl">The programmer with passion</h2>
     </div>
-    <div class="absolute bottom-20">
+    <div class="absolute bottom-[70px]">
       <ScrollIcon />
     </div>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
-
 <style lang="scss" scoped>
 .blob {
   position: absolute;

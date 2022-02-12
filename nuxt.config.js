@@ -2,7 +2,8 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   tailwindcss: {
-    configPath: 'tailwind.config.js',  },
+    configPath: 'tailwind.config.js',
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -21,19 +22,13 @@ export default {
   // https://github.com/vercel/vercel/issues/3499
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@/assets/css/main.css'
-  ],
+  css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: [
-    '~/components',
-    '~/components/buttons',
-    '~/components/sections',
-  ],
+  components: ['~/components', '~/components/buttons', '~/components/sections'],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -41,6 +36,7 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt/typescript-build',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
