@@ -2,7 +2,11 @@
   <div class="fixed top-0 left-0 w-full z-50">
     <header class="container flex items-center justify-between pt-8">
       <NuxtLink to="/">
-        <h2>LOGO</h2>
+        <img
+          class="h-[50px] logo"
+          src="~/assets/images/ogi_logo.png"
+          alt="Ogi's logo"
+        />
       </NuxtLink>
       <button @click="displayMenu = true">
         <svg
@@ -18,7 +22,7 @@
     </header>
     <div
       :class="
-        'absolute w-full left-full top-0 h-screen bg-dark-navy transition-all duration-500 transform ' +
+        'menu absolute w-full left-full top-0 h-screen bg-dark-navy transition-all duration-500 transform ' +
         (displayMenu ? '-translate-x-full' : 'translate-x-0')
       "
     >
@@ -67,7 +71,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-a {
+.menu a {
   position: relative;
   display: inline-block;
   padding: 10px;
