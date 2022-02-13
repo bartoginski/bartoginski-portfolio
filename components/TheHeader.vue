@@ -36,21 +36,25 @@
           <NuxtLink
             to="/"
             class="uppercase text-7xl font-title"
+            @click.native="hideMenu"
             >Home</NuxtLink
           >
           <NuxtLink
             to="/blog"
             class="uppercase text-7xl font-title"
+            @click.native="hideMenu"
             >Blog</NuxtLink
           >
           <NuxtLink
             to="/contact"
             class="uppercase text-7xl font-title"
+            @click.native="hideMenu"
             >Contact</NuxtLink
           >
           <NuxtLink
             to="/portfolio"
             class="uppercase text-7xl font-title"
+            @click.native="hideMenu"
             >Portfolio</NuxtLink
           >
         </div>
