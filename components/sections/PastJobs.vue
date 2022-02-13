@@ -3,7 +3,7 @@
     <div class="pattern w-full h-full absolute z-0 top-0 left-0"></div>
     <div class="container relative z-10">
       <div data-aos="fade-down">
-        <SectionHeader class="text-center" :lines="false">My Past Jobs</SectionHeader>
+        <SectionHeader :center="true" :lines="false">My Past Jobs</SectionHeader>
         <p class="text-center text-xl">
           I have been gathering front end experience in several companies
         </p>
