@@ -11,17 +11,15 @@
   </section>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-
-export default Vue.extend({
+<script>
+export default {
   props: {
     isReversed: {
       type: Boolean,
-      default: false
-    }
-  }
-})
+      default: false,
+    },
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>

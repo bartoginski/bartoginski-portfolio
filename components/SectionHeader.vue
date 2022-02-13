@@ -10,10 +10,9 @@
   </h2>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
 
-export default Vue.extend({
+export default {
   props: {
     dark: {
       type: Boolean,
@@ -24,7 +23,7 @@ export default Vue.extend({
       default: true,
     },
   },
-})
+}
 </script>
 <style scoped lang="scss">
 .lines {
