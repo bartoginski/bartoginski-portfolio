@@ -1,6 +1,7 @@
 <template>
   <div class="fixed top-0 left-0 w-full z-50">
-    <header class="container flex items-center justify-between pt-8">
+    <div class="absolute w-full h-full top-0 left-0 z-0 bg-dark-navy opacity-25"></div>
+    <header class="relative container flex items-center justify-between  py-4 z-10">
       <NuxtLink to="/">
         <img
           class="h-[50px] logo"
@@ -22,11 +23,11 @@
     </header>
     <div
       :class="
-        'menu absolute w-full left-full top-0 h-screen bg-dark-navy transition-all duration-500 transform ' +
+        'menu absolute w-full left-full top-0 h-screen bg-dark-navy transition-all duration-500 transform z-50 ' +
         (displayMenu ? '-translate-x-full' : 'translate-x-0')
       "
     >
-      <div class="container py-10 flex justify-between">
+      <div class="container py-4 flex justify-between">
         <div class="flex flex-col flex-gap gap-[60px] pt-24 sm:pt-40">
           <NuxtLink to="/" class="uppercase text-7xl font-title">Home</NuxtLink>
           <NuxtLink to="/blog" class="uppercase text-7xl font-title"
