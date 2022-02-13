@@ -14,8 +14,13 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Vue.js Front End Developer ' },
+      { hid: 'title', name: 'title', content: 'Bartosz Ogiński - Programmer' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'theme-color', content: '#072227' },
+      { name: 'msapplication-navbutton-color', content: '#072227' },
+      { name: 'apple-mobile-web-app-status-bar-style', content: '#072227' },
+
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
