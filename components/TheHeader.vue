@@ -1,7 +1,11 @@
 <template>
   <div class="fixed top-0 left-0 w-full z-50">
-    <div class="absolute w-full h-full top-0 left-0 z-0 bg-dark-navy opacity-25"></div>
-    <header class="relative container flex items-center justify-between  py-4 z-10">
+    <div
+      class="absolute w-full h-full top-0 left-0 z-0 bg-dark-navy opacity-25"
+    ></div>
+    <header
+      class="relative container flex items-center justify-between py-4 z-10"
+    >
       <NuxtLink to="/">
         <img
           class="h-[50px] logo"
@@ -9,7 +13,7 @@
           alt="Ogi's logo"
         />
       </NuxtLink>
-      <button @click="displayMenu = true">
+      <button @click="showMenu">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -29,19 +33,29 @@
     >
       <div class="container py-4 flex justify-between">
         <div class="flex flex-col flex-gap gap-[60px] pt-24 sm:pt-40">
-          <NuxtLink to="/" class="uppercase text-7xl font-title">Home</NuxtLink>
-          <NuxtLink to="/blog" class="uppercase text-7xl font-title"
+          <NuxtLink
+            to="/"
+            class="uppercase text-7xl font-title"
+            >Home</NuxtLink
+          >
+          <NuxtLink
+            to="/blog"
+            class="uppercase text-7xl font-title"
             >Blog</NuxtLink
           >
-          <NuxtLink to="/contact" class="uppercase text-7xl font-title"
+          <NuxtLink
+            to="/contact"
+            class="uppercase text-7xl font-title"
             >Contact</NuxtLink
           >
-          <NuxtLink to="/portfolio" class="uppercase text-7xl font-title"
+          <NuxtLink
+            to="/portfolio"
+            class="uppercase text-7xl font-title"
             >Portfolio</NuxtLink
           >
         </div>
         <div class="flex flex-col">
-          <button @click="displayMenu = false">
+          <button @click="hideMenu">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -66,6 +80,14 @@ export default {
     return {
       displayMenu: false,
     }
+  },
+  methods: {
+    hideMenu() {
+      this.displayMenu = false
+    },
+    showMenu() {
+      this.displayMenu = true
+    },
   },
 }
 </script>
