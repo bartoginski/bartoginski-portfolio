@@ -39,12 +39,12 @@
             @click.native="hideMenu"
             >Home</NuxtLink
           >
-          <NuxtLink
+          <!--<NuxtLink
             to="/blog"
             class="uppercase text-7xl font-title"
             @click.native="hideMenu"
             >Blog</NuxtLink
-          >
+          > -->
           <NuxtLink
             to="/contact"
             class="uppercase text-7xl font-title"
