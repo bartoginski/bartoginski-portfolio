@@ -1,6 +1,6 @@
 <template>
   <button
-    class="relative transition-all duration-300 p-4 font-title text-2xl border-4 border-primary uppercase cursor-pointer"
+    class="relative transition-all duration-300 p-4 font-title text-2xl border-4 border-primary uppercase cursor-pointer w-full md:w-[170px] xl:w-[210px]"
   >
     <slot></slot>
   </button>

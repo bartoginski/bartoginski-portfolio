@@ -9,11 +9,11 @@
         you would be<br />
         interested in working with me, just email me.
       </p>
-      <div class="flex gap-10 md:gap-20 mt-20">
-        <NuxtLink to="/portfolio" data-aos="fade-right" data-aos-delay="1000"
+      <div class="flex flex-col md:flex-row gap-8 md:gap-20 mt-20">
+        <NuxtLink to="/portfolio" data-aos="fade-right" data-aos-delay="500"
           ><BtnOutline>Check portfolio</BtnOutline></NuxtLink
         >
-        <NuxtLink to="/contact" data-aos="fade-left" data-aos-delay="1000"
+        <NuxtLink to="/contact" data-aos="fade-left" data-aos-delay="500"
           ><BtnPrimary>Contact me!</BtnPrimary></NuxtLink
         >
       </div>
