@@ -1,6 +1,6 @@
 <template>
   <h2 class="font-title text-6xl mb-10 uppercase relative">
-    <span class="z-10 relative"><slot></slot></span>
+    <span class="z-10 relative flex items-center gap-4"><slot></slot> <slot name="icon"></slot></span>
     <div
       :class="
         'absolute -top-3 -left-8 h-5/6 w-24 z-0 ' +
