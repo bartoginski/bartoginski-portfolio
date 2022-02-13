@@ -2,7 +2,7 @@
   <div
     class="overflow-hidden max-h-screen h-screen relative flex items-center justify-center flex-col"
   >
-    <div class="blob " data-aos="zoom-in" data-aos-delay="900">
+    <div class="blob" data-aos="zoom-in" data-aos-delay="900">
       <svg
         xmlns:xlink="http://www.w3.org/1999/xlink"
         version="1.1"

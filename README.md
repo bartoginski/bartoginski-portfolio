@@ -13,7 +13,7 @@ Check [www.bartoginski.pl](https://bartoginski.pl)!
 
 
 ## 🛠 Tech Stack
-- Nuxtjs + Typescript
+- Nuxtjs
 - Tailwindcss
 - AOS
 
