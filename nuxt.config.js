@@ -58,12 +58,12 @@ export default {
   pwa: {
     meta: {
       theme_color: "#072227",
-      background_color: "#072227",
       title: 'Bartosz Ogiński Portfolio',
       author: '@bartoginski',
     },
     manifest: {
       name: 'Bartosz Ogiński Portfolio',
+      background_color: "#072227",
       short_name: 'bartoginski portfolio',
       lang: 'en',
     },
