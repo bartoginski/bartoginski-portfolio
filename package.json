@@ -2,6 +2,7 @@
   "name": "bartoginski",
   "version": "1.0.0",
   "private": true,
+  "description": "Bartoginski's portfolio. Created in Nuxt",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate",
