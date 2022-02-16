@@ -55,4 +55,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  pwa: {
+    meta: {
+      theme_color: "#072227"
+    }
+  }
 }
