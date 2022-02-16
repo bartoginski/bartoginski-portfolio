@@ -55,10 +55,18 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
   pwa: {
     meta: {
-      theme_color: "#072227"
-    }
+      theme_color: "#072227",
+      background_color: "#072227",
+      title: 'Bartosz Ogiński Portfolio',
+      author: '@bartoginski',
+    },
+    manifest: {
+      name: 'Bartosz Ogiński Portfolio',
+      short_name: 'bartoginski portfolio',
+      lang: 'en',
+    },
   }
+
 }
