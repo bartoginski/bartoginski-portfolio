@@ -51,12 +51,11 @@
             @click.native="hideMenu"
             >Contact</NuxtLink
           >
-          <!-- TODO: Edit link's text -->
           <NuxtLink
             to="/portfolio"
             class="uppercase text-7xl font-title"
             @click.native="hideMenu"
-            >Portfolio (In development)🚧</NuxtLink
+            >Portfolio</NuxtLink
           >
         </div>
         <div class="flex flex-col">
