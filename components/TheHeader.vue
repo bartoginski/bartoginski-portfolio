@@ -9,7 +9,7 @@
       <NuxtLink to="/">
         <img
           class="h-[50px] logo"
-          src="~/assets/images/ogi_logo.png"
+          src="~/assets/images/ogi_logo.svg"
           alt="Ogi's logo"
         />
       </NuxtLink>
