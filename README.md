@@ -5,8 +5,7 @@
 # Bartoginski's Personal website
 
 ## How is it going?
-Websit is still in early state of development 🚧.
-For now, only the home page is almost finished.
+Almost finished!🏁 I'm open to feedback.
 
 Check [www.bartoginski.pl](https://bartoginski.pl)!
 
@@ -30,17 +29,17 @@ After while go to [localhost:3000](https://localhost:300).
 
 ## Author
 
-- [@bartoginski](https://www.github.com/bartoginski)
+- Me - [@bartoginski](https://www.github.com/bartoginski)
 
 ## Todos
 
-- [ ]  Create homepage
-    - [ ]  Update blob svg
-- [ ]  Create contact page
-- [ ]  Create portfolio page
-- [ ]  Create blog page
-    - [ ]  Create create some posts
-    - [ ]  Configure content/strapi
-- [ ]  Animate menu
+- [x]  Create homepage
+    - [x]  Update blob svg
+- [x]  Create contact page
+- [x]  Create portfolio page
+- [ ]  ~~Create blog page~~ 
+    - [ ]  ~~Create create some posts~~
+    - [ ]  ~~Configure content/strapi~~
+- [x]  Animate menu
 
 
