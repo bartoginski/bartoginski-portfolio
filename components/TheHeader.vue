@@ -1,7 +1,7 @@
 <template>
   <div class="fixed top-0 left-0 w-full z-50">
     <div
-      class="absolute w-full h-full top-0 left-0 z-0 bg-dark-navy opacity-25"
+      class="absolute w-full h-full top-0 left-0 z-0 bg-dark-navy opacity-50"
     ></div>
     <header
       class="relative container flex items-center justify-between py-4 z-10"
