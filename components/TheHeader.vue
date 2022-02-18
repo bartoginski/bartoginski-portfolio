@@ -7,11 +7,7 @@
       class="relative container flex items-center justify-between py-4 z-10"
     >
       <NuxtLink to="/">
-        <img
-          class="h-[50px] logo"
-          src="~/assets/images/ogi_logo.svg"
-          alt="Ogi's logo"
-        />
+        <TheLogo />
       </NuxtLink>
       <button @click="showMenu">
         <svg

@@ -11,20 +11,20 @@
       <div
         class="mt-10 sm:mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2 items-center justify-items-center"
       >
-        <a href="https://imado.co/">
+        <a href="https://imado.co/" target="_blank" rel="noopener noreferrer">
           <img
             class="w-56"
             data-aos="fade-right"
             src="~/assets/images/imado_logo.svg"
-            alt=""
+            alt="IMADO's logo"
           />
         </a>
-        <a href="https://nolimitplan.pl/">
+        <a href="https://nolimitplan.pl/" target="_blank" rel="noopener noreferrer">
           <img
             class="w-56"
             data-aos="fade-left"
             src="~/assets/images/nolimit_logo.png"
-            alt=""
+            alt="NoLimit's logo"
           />
         </a>
       </div>
