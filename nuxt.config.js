@@ -14,13 +14,16 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Vue.js Front End Developer ' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Vue.js Front End Developer ',
+      },
       { hid: 'title', name: 'title', content: 'Bartosz Ogiński - Programmer' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'theme-color', content: '#072227' },
       { name: 'msapplication-navbutton-color', content: '#072227' },
       { name: 'apple-mobile-web-app-status-bar-style', content: '#072227' },
-
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -33,7 +36,12 @@ export default {
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: ['~/components', '~/components/buttons', '~/components/sections', '~/components/portfolioCards'],
+  components: [
+    '~/components',
+    '~/components/buttons',
+    '~/components/sections',
+    '~/components/portfolioCards',
+  ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -57,16 +65,15 @@ export default {
   build: {},
   pwa: {
     meta: {
-      theme_color: "#072227",
+      theme_color: '#072227',
       title: 'Bartosz Ogiński Portfolio',
       author: '@bartoginski',
     },
     manifest: {
       name: 'Bartosz Ogiński Portfolio',
-      background_color: "#072227",
+      background_color: '#072227',
       short_name: 'bartoginski portfolio',
       lang: 'en',
     },
-  }
-
+  },
 }

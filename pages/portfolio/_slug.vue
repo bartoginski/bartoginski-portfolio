@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-[100px] container flex flex-col">
+  <div class="h-screen justify-center container flex flex-col">
     <NuxtLink to="/portfolio" class="flex items-center mb-8"
       ><svg
         xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@
               <li v-for="stack in project.stack" :key="stack">- {{ stack }}</li>
             </ul>
           </div>
-          <div>
+          <div class="pr-10">
             <h3 class="text-2xl">Links:</h3>
             <ul class="font-title text-xl">
               <li >
