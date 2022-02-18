@@ -1,5 +1,5 @@
 
-![Logo](assets/images/ogi_logo.png)
+![Logo](assets/images/ogi_logo.svg)
 
 
 # Bartoginski's Personal website
