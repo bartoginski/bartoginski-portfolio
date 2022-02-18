@@ -13,7 +13,7 @@
         /></svg
       ><span>Back to Portfolio Page</span></NuxtLink
     >
-    <div v-if="project" class="grid grid-cols-1 xl:grid-cols-2 lg:gap-10">
+    <div v-if="project" class="grid grid-cols-1 xl:grid-cols-2 lg:gap-10 md:text-lg">
       <img
         :src="require('~/assets/images/' + project.img)"
         :alt="`${project.title} screenshot`"
@@ -38,14 +38,14 @@
               <li v-for="stack in project.stack" :key="stack">- {{ stack }}</li>
             </ul>
           </div>
-          <div class="pr-10">
+          <div class="pr-10 lg:pr-16">
             <h3 class="text-2xl">Links:</h3>
-            <ul class="font-title text-xl">
+            <ul class="font-title text-2xl">
               <li >
-                <a :href="project.links.github"> Github</a>
+                - <a :href="project.links.github" class="hover:opacity-90 transition-opacity"> Github</a>
               </li>
               <li >
-                <a :href="project.links.github"> Github</a>
+                - <a :href="project.links.projectLink" class="hover:opacity-90 transition-opacity"> WWW</a>
               </li>
             </ul>
           </div>
