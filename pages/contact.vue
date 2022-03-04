@@ -45,7 +45,7 @@
           <template #text> Github </template>
         </BtnContact>
         <BtnContact
-          link="https://www.linkedin.com/in/bartosz-ogi%C5%84ski-004b6a218/"
+          link="https://www.linkedin.com/in/bartosz-oginski"
         >
           <template #icon>
             <svg
