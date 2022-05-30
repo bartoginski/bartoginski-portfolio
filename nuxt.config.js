@@ -56,7 +56,19 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/google-gtag',
   ],
+  'google-gtag': {
+    id: 'G-0V1TD46FTD',
+    config: {
+      anonymize_ip: true, // anonymize IP
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      linker: {
+        domains: ['bartoginski.pl'],
+      },
+    },
+    debug: true, // enable to track in dev mode
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
