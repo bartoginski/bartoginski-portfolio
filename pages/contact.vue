@@ -111,7 +111,7 @@
           <template #text> Phone </template>
         </BtnContact>
         <BtnContact
-          link="https://drive.google.com/file/d/1xtQkQLiuZtSEWafJPR7MrW0nznGCnaoo/view?usp=sharing"
+          link="https://drive.google.com/file/d/18ZtcN43Chzz45ewwHxmp3H2u9Uym3ih2/view?usp=sharing"
         >
           <template #icon>
             <svg
